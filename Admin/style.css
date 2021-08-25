@@ -1,0 +1,175 @@
+.container {
+    margin-left: 10%;
+}
+
+input[type=text], input[type=password] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.log {
+    float: right;
+    margin-right: 37%;
+    margin-top: 5%;
+    background-color: #efaae9;
+    width: 10%;
+    padding: 20px;
+}
+
+/* Add a hover effect for buttons */
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+
+/* Add padding to containers */
+
+.container {
+    padding: 16px;
+}
+
+/* The "Forgot password" text */
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
+
+.pTable {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+}
+
+body {
+    background-color: white;
+}
+
+.action {
+    width: 80px;
+}
+
+.pTable th {
+    border: solid 1px black;
+}
+
+h2 {
+    text-align: center;
+}
+
+.pForm {
+    margin: auto;
+    margin-top: 40px;
+    width: 80%;
+    align-items: center;
+    background-image: url("back.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.login {
+    width: 100%;
+    margin-top: 10%;
+}
+
+label {
+    font-size: 30px;
+    padding: 10px;
+    color: black;
+    font-weight: bolder;
+    display: inline-block;
+    width: 240px;
+    text-align: right;
+}
+
+.pForm button {
+    margin: 20px;
+    padding: 20px;
+    width: 15%;
+    margin-left: 200px;
+    font-size: 20px;
+    background-color: #1f38b1;
+}
+
+.pForm button :hover {
+    background-color: #3cafe4;
+}
+
+.pForm h3 {
+    margin: auto;
+    text-align: center;
+    font-size: xxx-large;
+    font-weight: 900;
+    background-color: #d8d8d8;
+    width: 80%;
+}
+
+.align {
+    margin-left: 200px;
+}
+
+.pTable {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+.pTable td, .pTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.pTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.pTable tr:hover {
+    background-color: #ddd;
+}
+
+.pTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+}
+
+.pForm2 {
+    width: 100%;
+    margin: auto;
+}
+
+.pForm2 label {
+    font-size: xx-large;
+    color: black;
+}
